@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    color: white;
+}
+
+h2 {
+font-size: 2em;
+font-display: center;
+color: pink;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    font-size: 1em;
+    padding: 12px 8px 12px 40px;
+}
