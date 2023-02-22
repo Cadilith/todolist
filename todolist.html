@@ -4,24 +4,23 @@
     <head>
         <meta charset="utf-8">
         <title>To do list</title>
-        <link href="/style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
     </head>
 
     <body>
-        <header>
+        <div class="header">
             <h2>My to do list</h2>
             <input type="text" id="myInput" placeholder="to do...">
             <span onclick="addNewListItem()" class="addBtn">Add</span>
-        </header>
+        </div>
 
-        <main>
-            <ul id="list">
-                <li>Finish this project</li>
-                <li class="checked">Wake up</li>
-                <li>Have coffee</li>
-                <li>Cuddle cat</li>
-            </ul>
-        </main>
+        <ul id="list">
+            <li>Finish this project</li>
+            <li class="checked">Wake up</li>
+            <li>Have coffee</li>
+            <li>Cuddle cat</li>
+        </ul>
+
 
     </body>
 
