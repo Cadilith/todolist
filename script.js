@@ -19,4 +19,7 @@ for (i = 0; i < close.length; i++){
     }
 }
 
-//
+//add checked symbol on click
+
+//create a new list item when clicking on the add button fonction addNewListItem()
+
